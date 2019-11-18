@@ -1,10 +1,11 @@
 package com.pattern.strategy.model;
 
-import com.pattern.strategy.controller.ScoreBoard;
+import com.pattern.strategy.controller.ScoreBoardBase;
 
-public class SquareBallon extends ScoreBoard {
+public class SquareBallon implements ScoreBoardBase {
+
     @Override
     public int showScore(int taps, int multiplier) {
-        return (taps * multiplier) + 30;
+        return (taps * multiplier) + 20;
     }
 }
