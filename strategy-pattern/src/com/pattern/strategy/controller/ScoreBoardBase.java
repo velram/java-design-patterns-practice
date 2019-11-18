@@ -1,4 +1,4 @@
-package com.pattern.strategy.model;
+package com.pattern.strategy.controller;
 
 public interface ScoreBoardBase {
 
